@@ -1,0 +1,152 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-color: black;
+}
+
+.header{
+    padding: 20px;
+    color: #72ff40;
+    
+}
+
+.header h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.header p{
+    font-size: 30px
+}
+
+.body-main{
+    color: #69ff33;
+    height:70vh;
+    padding: 5px;
+    margin:0px auto;
+/*
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    overflow:hidden;
+    font-weight: bold;
+*/
+}
+.upper button{
+    width:150px;
+    padding: 10px;
+    margin: 10px auto;
+    font-weight:bolder;
+    background-color:darkgreen;
+    color:white;
+    border-radius: 50px;
+    transition: 1s; 
+    border: 3px solid #69ff33;
+    outline:0;  
+}
+.upper button:hover{
+background-color:#69ff33;
+color:black;
+}
+.upper{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    margin-top: 0px auto;
+    background: none;
+    transition: opacity 0.5s ease;
+}
+.upper h1{
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+.below{
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    margin-top: -10px;
+    transition: all 1s;
+}
+
+.below button{
+    width:160px;
+/*    height: 19vh;*/
+    font-weight:bolder;
+    background-color:darkgreen;
+    color:white;
+    border-radius: 50%;
+    transition: 1s; 
+    padding: 10px;
+    margin: 10px auto;
+    border: 3px solid #69ff33;
+    font-size: 14px;
+    text-align: center;
+    outline: 0;
+}
+.below button:hover{
+background-color:#69ff33;
+color:black;
+}
+.below h1{
+    color:#69ff33;
+}
+.fade-out{
+    opacity:0;
+    pointer-events: none;
+}
+
+.fade-in{
+    opacity: 1;
+    pointer-events: all; 
+}
+.options{
+    display: flex;
+    justify-content: space-around;
+}
+.below h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+.msg-red{
+    color:orangered!important;
+}
+.msg-yellow{
+    color:yellow!important;
+}
+#big{
+    font-size: 50px;
+}
+.mym{
+    font-size: 20px;
+    font-weight: bolder;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 6px;
+}
+.rock img{
+
+    height: 100px;
+}
+.scissors img{
+height: 100px;
+transform: rotate(10deg);
+}
+.paper img{
+    height:100px; 
+}
+.below button:active{
+    outline:none!important;
+    
+}
